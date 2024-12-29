@@ -1,0 +1,34 @@
+src/*.exe
+src/trumpcoin
+src/trumpcoind
+src/test_trumpcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.trumpcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+trumpcoin-qt
+Trumpcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+trumpcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
